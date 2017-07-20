@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1443397646383-16272048780e?dpr=2&auto=format&fit=crop&w=1500&h=1125&q=80&cs=tinysrgb&crop=');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  position: relative;
+  width: 60%;
+  height: 250px;
+  margin: auto;
+  padding-top: 45px;
+  color: white;
+}
+
+.title, .city {
+  position: relative;
+  text-align: center;
+}
+
+.more-info {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.temperature, .description, .sunrise-sunset {
+  width: 30%;
+  position: relative;
+  border: 1px solid rgba(47, 175, 160, 0.5);
+  text-align: center;
+  border-radius: 5px;
+  background: rgba(47, 175, 160, 0.4);
+}
